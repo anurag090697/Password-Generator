@@ -1,0 +1,70 @@
+body{
+  background-color: darkseagreen;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.container{
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 500px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: cadetblue;
+}
+.pwdlength{
+  display: flex;
+  gap: 20px;
+justify-content: center;
+align-items: center;
+}
+.optionsBox{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.copyIt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.copyBtn {
+    background-color: #3e3eff;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.inputPwd{
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid black;
+
+}
+.copyBtn:hover{
+  background-color: #00006b;
+  
+  border: 1px solid rgb(255, 255, 255);
+}
+.generateBtn{
+  text-align: center;
+  padding: 8px;
+  background-color: rgb(0, 185, 83);
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: large;
+}
+.generateBtn:hover{
+  background-color: rgb(0, 185, 151);
+  border: 1px solid rgb(255, 255, 255);
+}
